@@ -11,13 +11,17 @@ header {
     background-color: #8b786d;
     color: #d2d0ba;
     text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    line-height: 1.5;
+    font-size: 52px;
     padding: 20px;
     margin: 0px;
 }
 
 nav {
     background-color: #8b786d;
-    font-family: arial;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -67,8 +71,8 @@ article {
     font-size: 35px;
     line-height: 1.5;
     color: #283044;
+    font-family: 'Itim', cursive;
     font-weight: bolder;
-    font-family: "Microsoft JhengHei", "微軟正黑體", "新細明體", "華康黑體", sans-serif;
 }
 
 .title {
@@ -76,6 +80,9 @@ article {
     float: center;
     background-color: #626c66;
     color: #d2d0ba;
+    font-family: 'Permanent Marker', cursive;
+    line-height: ;
+    font-size: 32px;
     padding: 20px;
     margin: 20px 10px;
     border-radius: 15px;
@@ -114,8 +121,8 @@ article {
     font-size: 32px;
     line-height: 1.5;
     color: #283044;
+    font-family: 'Itim', cursive;
     font-weight: bolder;
-    font-family: "Microsoft JhengHei", "微軟正黑體", "新細明體", "華康黑體", sans-serif;
 }
 
 .text3 {
@@ -129,8 +136,8 @@ article {
     font-size: 32px;
     line-height: 1.5;
     color: #283044;
+    font-family: 'Itim', cursive;
     font-weight: bolder;
-    font-family: "Microsoft JhengHei", "微軟正黑體", "新細明體", "華康黑體", sans-serif;
 }
 
 h3 {
@@ -138,6 +145,7 @@ h3 {
     float: left;
     background-color: #626c66;
     color: #d2d0ba;
+    font-family: 'Permanent Marker', cursive;
     padding: 20px;
     margin: 20px 10px;
     border-radius: 15px;
@@ -152,6 +160,9 @@ footer {
     background-color: #8b786d;
     color: #d2d0ba;
     text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 24px;
+    line-height: 1.5;
     padding: 10px;
 }
 
@@ -168,6 +179,7 @@ footer {
     float: center;
     background-color: #626c66;
     color: #d2d0ba;
+    font-family: 'Permanent Marker', cursive;
     padding: 20px;
     margin: 20px 20px;
     border-radius: 15px;
@@ -186,6 +198,25 @@ footer {
     margin-top: -125px;
     padding-left: 150%;
     color: #283044;
+    font-family: 'Itim', cursive;
     font-weight: bolder;
     font-size: 24px;
+}
+
+@media screen and (max-width:800px) {
+
+    article {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
 }
