@@ -32,11 +32,31 @@ nav a:hover {
     color: white;
 }
 
+.card {
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.card2 {
+    background-color: #626c66;
+    color: #d2d0ba;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+}
+
 .mainphoto {
-    width: 200px;
-    height: 200px;
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
     object-fit: cover;
-    object-position: center center;
 }
 
 .photo {
@@ -50,29 +70,16 @@ main {
     padding: 20px;
 }
 
-.card {
-    background-color: white;
-    padding: 20px;
-    margin: 20px 10px;
-    border-radius: 15px;
-    background-size: cover;
-}
-
-.card2 {
-    display: flex;
-    background-color: #d2d0ba;
-    border-radius: 15px;
-}
-
 article {
     float: left;
-    width: 73%;
 }
 
-aside {
-    float: right;
-    width: 25%;
-    text-align: center;
+h3 {
+    padding: 20px;
+}
+
+.text {
+    font-family: 標楷體;
 }
 
 .clearfix {
